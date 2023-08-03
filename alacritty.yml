@@ -1,0 +1,55 @@
+font:
+  normal:
+    family: JetBrains Mono
+    style: Regular
+
+    #size: 10.0
+
+cursor:
+  style:
+    shape: Beam
+    blinking: Off
+
+  vi_mode_style: Block
+
+bell:
+  duration: 0
+
+live_config_reload: true
+
+mouse:
+  hide_when_typing: true
+
+key_bindings:
+  - { key: Return, mods: Control|Shift, action: SpawnNewInstance }
+
+env:
+  TERM: xterm-256color
+
+colors:
+  # Default colors
+  primary:
+    background: '0x292821'
+    foreground: '0xfff1f3'
+
+  # Normal colors
+  normal:
+    black:   '0x2c2525'
+    red:     '0xfd6883'
+    green:   '0xadda78'
+    yellow:  '0xf9cc6c'
+    blue:    '0xf38d70'
+    magenta: '0xa8a9eb'
+    cyan:    '0x89bcbc'
+    white:   '0xfff1f3'
+
+  # Bright colors
+  bright:
+    black:   '0x72696a'
+    red:     '0xfd6883'
+    green:   '0xadda78'
+    yellow:  '0xf9cc6c'
+    blue:    '0xf38d70'
+    magenta: '0x8f8fdf'
+    cyan:    '0x89bcbc'
+    white:   '0xfff1f3'
