@@ -1,10 +1,5 @@
 if status is-interactive
-
-  # Commands to run in interactive sessions can go here
-  alias nrf "~/Downloads/nrfconnect-4.1.2-x86_64.appimage"
   set BROWSER "/usr/bin/firefox"
-  set PATH "/home/kuba/ncs/v2.4.0/modules/lib/matter/zap_location/zap-linux" $PATH
-
 end
 
 function fish_greeting
